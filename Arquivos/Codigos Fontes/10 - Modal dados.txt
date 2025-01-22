@@ -1,0 +1,35 @@
+<div class="row" style="margin-top: 0px">
+					<div class="col-md-6" style="margin-bottom: 5px">
+						<span><b>Telefone: </b></span><span id="telefone_dados"></span>
+					</div>
+
+					<div class="col-md-6" style="margin-bottom: 5px">
+						<span><b>CPF: </b></span><span id="cpf_dados"></span>
+					</div>
+
+					<div class="col-md-8" style="margin-bottom: 5px">
+						<span><b>Email: </b></span><span id="email_dados"></span>
+					</div>
+
+					
+
+					<div class="col-md-4" style="margin-bottom: 5px">
+						<span><b>Senha: </b></span><span id="senha_dados"></span>
+					</div>
+
+					<div class="col-md-6" style="margin-bottom: 5px">
+						<span><b>Nível: </b></span><span id="nivel_dados"></span>
+					</div>
+
+					<div class="col-md-6" style="margin-bottom: 5px">
+						<span><b>Ativo: </b></span><span id="ativo_dados"></span>
+					</div>
+
+					<div class="col-md-6" style="margin-bottom: 5px">
+						<span><b>Data Cadastro: </b></span><span id="data_cad_dados"></span>
+					</div>
+
+					<div class="col-md-12" style="margin-bottom: 5px">
+						<span><b>Endereço: </b></span><span id="endereco_dados"></span>
+					</div>
+				</div>

@@ -1,0 +1,10 @@
+function marcarTodos(){
+		let checkbox = document.getElementById('input-todos');
+		var usuario = $('#id-usuario').val();
+		
+		if(checkbox.checked) {
+		    adicionarPermissoes(usuario);		    
+		} else {
+		    limparPermissoes(usuario);
+		}
+	}

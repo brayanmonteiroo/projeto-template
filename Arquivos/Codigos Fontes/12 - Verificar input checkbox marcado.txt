@@ -1,0 +1,7 @@
+if($('#seletor-'+id).is(":checked") == true){
+			var novo_id = ids + id + '-';
+			$('#ids').val(novo_id);
+		}else{
+			var retirar = ids.replace(id + '-', '');
+			$('#ids').val(retirar);
+		}
