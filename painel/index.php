@@ -1,8 +1,5 @@
 <?php 
-session_start();
-echo $_SESSION['nome'] . '<br>';
-echo $_SESSION['id'] . '<br>';
-echo $_SESSION['nivel'] . '<br>';
+require_once 'verificar.php';
 ?>
 
 <a href="logout.php">Sair</a>
