@@ -17,16 +17,15 @@ $linhas = count($res);
 if($linhas > 0) {
 	$nome_usuario = $res[0]['nome'];
 	$email_usuario = $res[0]['email'];
-	$telefone_usuario = $res[0]['telefone'];
-	$cpf_usuario = $res[0]['cpf'];
 	$senha_usuario = $res[0]['senha'];
+	$nivel_usuario = $res[0]['nivel'];
+	$endereco_usuario = $res[0]['endereco'];
+	$telefone_usuario = $res[0]['telefone'];
 	$foto_usuario = $res[0]['foto'];
 }
-echo $nome_usuario . '<br>';
-echo $email_usuario . '<br>';
-echo $telefone_usuario . '<br>';
-echo $cpf_usuario . '<br>';
-echo $senha_usuario . '<br>';
+
+
+
 
 ?>
 <!DOCTYPE HTML>
@@ -234,8 +233,8 @@ echo $senha_usuario . '<br>';
 								<div class="profile_img">	
 									<span class="prfil-img"><img src="images/perfil/sem-foto.jpg" alt="" width="50px" height="50px"> </span> 
 									<div class="user-name esc">
-										<p>Nome Usuário</p>
-										<span>Nível Usuário</span>
+										<p><?php echo $nome_usuario ?></p>
+										<span><?php echo $nivel_usuario ?></span>
 									</div>
 									<i class="fa fa-angle-down lnr"></i>
 									<i class="fa fa-angle-up lnr"></i>
@@ -371,11 +370,10 @@ echo $senha_usuario . '<br>';
 						</div>
 
 						<div class="col-md-6">							
-								<label>CPF</label>
-								<input type="text" class="form-control" id="cpf_perfil" name="cpf" placeholder="Seu CPF" value="<?php echo $cpf_usuario ?>">							
+								<label>Endereço</label>
+								<input type="text" class="form-control" id="endereco_perfil" name="endereco" placeholder="Seu endereço" value="<?php echo $endereco_usuario ?>">							
 						</div>
 					</div>
-
 
 
 					<div class="row">

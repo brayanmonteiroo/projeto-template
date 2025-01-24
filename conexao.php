@@ -23,6 +23,8 @@ try {
 //Variáveis globais
 $nome_sistema = "Brayan Monteiro";
 $email_sistema = "brayanmonteirooo@gmail.com";
+$telefone_sistema = "(91) 98183-1557";
+$endereco_sistema = "Avenida Ceará, nº 652, Belém - PA";
 
 
 ?>
