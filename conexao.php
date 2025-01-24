@@ -21,8 +21,8 @@ try {
 
 
 //Variáveis globais
-$nomeSistema = "Projeto Template";
-$emailSistema = "brayanmonteirooo@gmail.com";
+$nome_sistema = "Brayan Monteiro";
+$email_sistema = "brayanmonteirooo@gmail.com";
 
 
 ?>

@@ -4,14 +4,15 @@ require_once 'conexao.php';
 
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
+$senha_crip = md5($senha); 
 
 //verificar se o usuário e senha estão corretos
 $query = $pdo->prepare("SELECT * FROM usuarios
  WHERE email = :email
- AND senha = :senha
+ AND senha_crip = :senha
  ");
 $query->bindValue(':email', $usuario);
-$query->bindValue(':senha', $senha);
+$query->bindValue(':senha', $senha_crip);
 $query->execute();
 $res = $query->fetchAll(PDO::FETCH_ASSOC);
 $linhas = count($res);
