@@ -30,8 +30,6 @@ if($linhas > 0){
     
 }
 
-// Diferença entre query e prepare: query é para consultas simples, prepare é para consultas mais complexas. E prepare é mais seguro, pois evita SQL Injection.
 
-//Diferença entre bindValue e bindParam: bindValue é para valores, bindParam é para variáveis. bindValue pode ser usado para valores e variáveis, mas bindParam só pode ser usado para variáveis.
 
 ?>

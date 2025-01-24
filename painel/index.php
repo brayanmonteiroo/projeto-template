@@ -1,4 +1,5 @@
 <?php 
+@session_start();
 require_once("../conexao.php");
 require_once("verificar.php");
 
@@ -9,7 +10,23 @@ if(@$_GET['pagina'] != ""){
 	$pagina = 'home';
 }
 
-
+$id_usuario = @$_SESSION['id'];
+$query = $pdo->query("SELECT * FROM usuarios where id = $id_usuario");
+$res = $query->fetchAll(PDO::FETCH_ASSOC);
+$linhas = count($res);
+if($linhas > 0) {
+	$nome_usuario = $res[0]['nome'];
+	$email_usuario = $res[0]['email'];
+	$telefone_usuario = $res[0]['telefone'];
+	$cpf_usuario = $res[0]['cpf'];
+	$senha_usuario = $res[0]['senha'];
+	$foto_usuario = $res[0]['foto'];
+}
+echo $nome_usuario . '<br>';
+echo $email_usuario . '<br>';
+echo $telefone_usuario . '<br>';
+echo $cpf_usuario . '<br>';
+echo $senha_usuario . '<br>';
 
 ?>
 <!DOCTYPE HTML>
