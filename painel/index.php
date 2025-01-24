@@ -122,7 +122,7 @@ if(@$_GET['pagina'] != ""){
 							<li class="header">MENU NAVEGAÇÃO</li>
 							<li class="treeview">
 								<a href="index.php">
-									<i class="fa fa-dashboard"></i> <span>Home</span>
+									<i class="fa fa-dashboard"></i> <span>Painel</span>
 								</a>
 							</li>
 							<li class="treeview">
@@ -228,7 +228,7 @@ if(@$_GET['pagina'] != ""){
 							<ul class="dropdown-menu drp-mnu">
 								<li> <a href="" data-toggle="modal" data-target="#modalConfig"><i class="fa fa-cog"></i> Configurações</a> </li> 
 								<li> <a href="" data-toggle="modal" data-target="#modalPerfil"><i class="fa fa-user"></i> Perfil</a> </li> 								
-								<li> <a href="../logout.php"><i class="fa fa-sign-out"></i> Sair</a> </li>
+								<li> <a href="logout.php"><i class="fa fa-sign-out"></i> Sair</a> </li>
 							</ul>
 						</li>
 					</ul>
