@@ -1,3 +1,16 @@
+<?php 
+require_once 'conexao.php';
+
+//verificar se o usuário e senha estão corretos
+$query = $pdo->query("SELECT * FROM usuarios");
+$res = $query->fetchAll(PDO::FETCH_ASSOC);
+$linhas = count($res);
+
+if($linhas == 0){
+    $query = $pdo->query("INSERT INTO usuarios SET nome = '$nomeSistema', email = '$emailSistema',");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>

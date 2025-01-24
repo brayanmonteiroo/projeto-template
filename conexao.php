@@ -20,7 +20,9 @@ try {
 }
 
 
-
+//Variáveis globais
+$nomeSistema = "Projeto Template";
+$emailSistema = "brayanmonteirooo@gmail.com";
 
 
 ?>
