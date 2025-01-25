@@ -27,8 +27,8 @@ if($linhas == 0){
         <div class="form">
             <img src="img/logo.png" class="imagem">
             <form method="post" action="autenticar.php">
-                <input type="email" name="usuario" placeholder="Digite seu e-mail">
-                <input type="password" name="senha" placeholder="Digite sua senha">
+                <input type="email" name="usuario" placeholder="Digite seu e-mail" required>
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
                 <button>Entrar</button>
             </form>
         </div>

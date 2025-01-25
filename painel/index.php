@@ -366,7 +366,7 @@ if($linhas > 0) {
 					<div class="row">
 						<div class="col-md-6">							
 								<label>Telefone</label>
-								<input type="text" class="form-control" id="telefone_perfil" name="telefone" placeholder="Seu Telefone" value="<?php echo $telefone_usuario ?>" required>							
+								<input type="text" class="form-control" id="telefone_perfil" name="telefone" placeholder="Seu Telefone" value="<?php echo $telefone_usuario ?>">							
 						</div>
 
 						<div class="col-md-6">							
@@ -390,12 +390,12 @@ if($linhas > 0) {
 
 
 					<div class="row">
-						<div class="col-md-6">							
+						<div class="col-md-9">							
 								<label>Foto</label>
 								<input type="file" class="form-control" id="foto_perfil" name="foto" value="<?php echo $foto_usuario ?>" onchange="carregarImgPerfil()">							
 						</div>
 
-						<div class="col-md-6">								
+						<div class="col-md-3">								
 							<img src="images/perfil/<?php echo $foto_usuario ?>"  width="80px" id="target-usu">								
 							
 						</div>
