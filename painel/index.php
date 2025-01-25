@@ -131,7 +131,7 @@ if($linhas > 0) {
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="index.php"><span class="fa fa-cutlery"></span> Sistema<span class="dashboard_text">Nome do Sistema</span></a></h1>
+						<h1><a class="navbar-brand" href="index.php"><span class="fa fa-desktop"></span> Sistema<span class="dashboard_text">Nome do Sistema</span></a></h1>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="sidebar-menu">
